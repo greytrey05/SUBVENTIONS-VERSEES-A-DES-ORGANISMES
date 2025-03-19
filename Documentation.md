@@ -63,7 +63,7 @@ A capital subsidy, on the other hand, is financial assistance specifically alloc
 Hypothesis
 Increase in Subsidies Hypothesis: There is a statistically significant increase in the total subsidy amount from 2022 to 2023.
 
-### 3. Methodology**
+### 3. Methodology
 
 **Data Description**
 
