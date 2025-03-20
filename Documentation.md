@@ -163,15 +163,70 @@ Statistical tests to evaluate the hypothesis regarding the increase in total sub
 
 - Initial Data Inspection:
 The datasets for 2022 and 2023 were loaded using Pandas, and the first few rows were examined with head() to gain an initial understanding of the data structure and content.
-2.	Data Types and Completeness:
-•	Utilised info() to check data types and identify any missing values. Notably, the "idBeneficiaire" column had some missing entries, but these were retained for potential future analysis.
-3.	Statistical Measures:
-•	Calculated key statistical measures for the subsidy amounts in both datasets:
-•	2022: Maximum subsidy of €15,000,000, minimum of €26.8, average of €224,215.5, and median of €11,517.5.
-•	2023: Maximum subsidy of €27,132,600, minimum of €184, average of €213,647.3, and median of €6,000.
-4.	Total Subsidy Distribution:
-•	The total subsidies distributed were calculated as €88,789,356.48 for 2022 and €117,719,667.87 for 2023, indicating a significant increase in funding.
-5.	Sectoral Funding Patterns:
-•	Identified the top 10 sectors receiving the most and least subsidies in each year. For instance, in 2022, the "Immobilier" sector received the highest funding, while "Agroalimentaire" received the least. In 2023, "Immobilier" again topped the list, with "Médias" receiving the least.
-6.	Percentage Change Analysis:
-•	A comparative analysis revealed a 32.58% increase in total subsidies from 2022 to 2023, highlighting a substantial rise in financial support.
+
+- Data Types and Completeness:
+Utilised info() to check data types and identify any missing values. Notably, the "idBeneficiaire" column had some missing entries, but these were retained for potential future analysis.
+
+- Statistical Measures:
+Calculated key statistical measures for the subsidy amounts in both datasets:
+
+2022: Maximum subsidy of €15000000, minimum of €26.8, average of €224215.5, and median of €11517.5
+2023: Maximum subsidy of €27132600, minimum of €184, average of €213647.3, and median of €6000
+
+- Total Subsidy Distribution:
+
+The total subsidies distributed were calculated as €88,789,356.48 for 2022 and €117,719,667.87 for 2023, indicating a significant increase in funding.
+
+- Sectoral Funding Patterns:
+
+Identified the top 10 sectors receiving the most and least subsidies in each year. For instance, in 2022, the "Immobilier" sector received the highest funding, while "Agroalimentaire" received the least. In 2023, "Immobilier" again topped the list, with "Médias" receiving the least.
+
+- Percentage Change Analysis:
+A comparative analysis revealed a 32.58% increase in total subsidies from 2022 to 2023, highlighting a substantial rise in financial support.
+
+
+# 5. Results
+
+
+**Summary of Key Findings**
+
+The analysis of subsidy allocations by the Metropole of Toulouse for the years 2022 and 2023 reveals several important insights:
+
+Total Subsidy Distribution: In 2022, the total amount of subsidies distributed was €88,789,356.48, while in 2023, this amount increased to €117,719,667.87, representing a significant rise of 32.58%. This indicates a substantial increase in financial support provided by the Metropole.
+
+Sectoral Funding Patterns: The "Immobilier" sector consistently received the highest amount of subsidies in both years, highlighting its priority within the Metropole's funding strategy. Conversely, sectors such as "Agroalimentaire" in 2022 and "Médias" in 2023 received the least funding, suggesting potential areas for increased support.
+
+Statistical Measures: The maximum subsidy amount increased from €15,000,000 in 2022 to €27,132,600 in 2023, reflecting a broader range of financial assistance. The average subsidy amount slightly decreased from €224,215.5 in 2022 to €213,647.3 in 2023, while the median subsidy amount dropped from €11,517.5 to €6,000, indicating a shift towards smaller individual grants.
+
+Beneficiary Analysis: The analysis identified the top 10 sectors receiving the most and least subsidies, providing insights into the distribution patterns and highlighting sectors that may require additional attention or resources.
+
+These findings offer valuable insights into the Metropole's subsidy allocation strategy, revealing trends and areas for potential improvement in future budget planning. By understanding these patterns, decision-makers can optimise the distribution of public resources to better support economic growth and stability within the region.
+
+**Answers to Research Questions or Validation of Hypotheses**
+
+
+Which sectors received the highest and lowest amounts of subsidies in 2022 and 2023?
+
+In both 2022 and 2023, the "Immobilier" sector received the highest amount of subsidies, indicating its strategic importance to the Metropole. Conversely, the "Agroalimentaire" sector in 2022 and the "Médias" sector in 2023 received the least funding, suggesting these areas may be underrepresented in subsidy allocations.
+What are the maximum, minimum, average, and median amounts received in 2022 and 2023?
+
+The maximum subsidy increased from €15,000,000 in 2022 to €27,132,600 in 2023. The average subsidy amount slightly decreased from €224,215.5 to €213,647.3, while the median dropped from €11,517.5 to €6,000, indicating a trend towards smaller individual grants.
+Which are the top 10 organisations that received the most and least subsidies in 2022 and 2023?
+
+The analysis identified the top 10 sectors, rather than individual organisations, receiving the most and least subsidies. This provides a sectoral overview, highlighting areas of significant financial support and those potentially needing more attention.
+What is the total amount during the year 2022 and the year 2023?
+
+The total subsidies distributed were €88,789,356.48 in 2022 and €117,719,667.87 in 2023, showing a substantial increase in financial support.
+What was the percentage increase in total subsidies between 2022 and 2023?
+
+There was a 32.58% increase in total subsidies from 2022 to 2023, reflecting a significant rise in the Metropole's financial commitment.
+What types of organisations are the primary beneficiaries of the subsidies, and which are underrepresented?
+
+The analysis focused on sectors rather than specific types of organisations. However, it highlighted that sectors like "Immobilier" are primary beneficiaries, while sectors such as "Agroalimentaire" and "Médias" are underrepresented.
+Has there been a significant change in the total amount of subsidies distributed between 2022 and 2023?
+
+Yes, there has been a significant increase in the total amount of subsidies distributed, as evidenced by the 32.58% rise.
+Validation of Hypothesis:
+
+There is a statistically significant increase in the total subsidy amount from 2022 to 2023.
+This hypothesis is validated by the observed 32.58% increase in total subsidies, confirming a substantial rise in financial allocations by the Metropole.
